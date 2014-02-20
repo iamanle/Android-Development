@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_button" />
+
+    <LinearLayout
+        android:id="@+id/linearTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/method"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/method"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/count"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/onCreate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/onCreate" />
+
+        <TextView
+            android:id="@+id/cCreate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/onStart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/onStart" />
+
+        <TextView
+            android:id="@+id/cStart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/onResume"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/onResume" />
+
+        <TextView
+            android:id="@+id/cResume"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/onPause"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/onPause" />
+
+        <TextView
+            android:id="@+id/cPause"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/onRestart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/onRestart" />
+
+        <TextView
+            android:id="@+id/cRestart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/logView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:paddingTop="10dp" />
+
+</LinearLayout>

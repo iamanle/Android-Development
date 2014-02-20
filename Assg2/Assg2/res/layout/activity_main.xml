@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/spinner_linearH"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/choices_spinner"
+            android:layout_width="166dp"
+            android:layout_height="77dp" />
+
+        <Button
+            android:id="@+id/go_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go_button" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/input_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edittext"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="horizontal" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
